@@ -360,10 +360,21 @@
 // ----------------------------------------------------------------------------------------- //PART #15
 // #include <stdio.h>
 
+// void hello(char[], int); // Function prototype
+
 // int main() {
 
+//     char name[] = "Nedas";
+//     int age = 22;
+
+//     hello(name, age);
 
 //     return 0;
+// }
+
+// void hello(char name[], int age) {
+//     printf("\nHello %s", name);
+//     printf("\nYou are %d years old", age);
 // }
 
 // ----------------------------------------------------------------------------------------- //PART #16
@@ -371,6 +382,22 @@
 
 // int main() {
 
+//     // //  double prices[5];
+
+//     // //  prices[0] = 5.00;
+//     // //  prices[1] = 15.00;
+//     // //  prices[2] = 25.00;
+//     // //  prices[3] = 35.00;
+//     // //  prices[4] = 45.00;
+//     // //  prices[5] = 55.00;
+
+
+//     // OR
+
+//     // Each double uses 8 bytes
+//     double prices[10] = {5.0, 10.0, 15.0, 25.0, 20.0};
+//     // printf("£%.2lf", prices[0]);
+//     printf("%d bytes\n", sizeof(prices));
 
 //     return 0;
 // }
