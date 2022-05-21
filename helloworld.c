@@ -319,8 +319,21 @@
 // ----------------------------------------------------------------------------------------- //PART #13
 // #include <stdio.h>
 
+// // Function
+// void happybirthday() {
+
+//     printf("\nHappy birthday!");
+//     printf("\nHappy birthday!");
+//     printf("\nHappy birthday!\n");
+
+// }
+
 // int main() {
 
+//     // Envoke it
+//     happybirthday();
+//     happybirthday();
+//     happybirthday();
 
 //     return 0;
 // }
