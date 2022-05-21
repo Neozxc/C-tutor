@@ -122,6 +122,21 @@
 
 // int main() {
 
+//     char name[25]; // set bytes
+//     int age;
+    
+
+//     printf("\nWhats your name? ");
+//     // // If we want to use white space we want to use
+//     fgets(name, 25, stdin);
+//     // // Without white spaces
+//     // // scanf("%s", &name);
+//     printf("Hello %s", name);
+
+//     printf("\nHow old are you?");
+//     // // Presseed operator with &
+//     scanf("%d", &age);
+//     printf("\nYou are %d years old", age);
 
 //     return 0;
 // }
