@@ -51,8 +51,23 @@
 //     float c = 3.141592; // 4 bytes (32 bits of precision) 6 - 7 digits &f
 //     double d = 3.141592653589793; // 8 bytes (64 bits of precision) 15 - 16 digits %lf
 
+//     // bool e = true; // 1 byte
+//     char f = 120; // 1 byte (-128 to +127) %d or %c
+
+//     short int h = 32767; // 2 bytes (-32,768 to +32,767) %d
+//     unsigned short int i = 65535; // 2 bytes (0 to +65,535) %d
+
+//     int j = 2147483647; // 4 bytes (-2,147,473,648 to +2,147,483,647) %d
+//     unsigned short int i = 65535; // 4 bytes (0 to +4,294,967,295) %u
+
+//     long long int j = 9223372036854775808; // 8 bytes (-9 quintillion to +9 quintillion) %lld
+//     unsigned long long int m = 18446744073709551615; // 8 bytes (0 to +18 quintillion) %llu
+
+//     printf("%c\n", f);
 //     printf("%0.15f\n", c);
 //     printf("%lf", d);
+//     printf("%lld", j);
+//     // printf("%e\n", e);
 
 //     // // We use more double than float because of precision but it takes more memory 8 bytes of memory and float uses 4 bytes.
 
@@ -64,6 +79,25 @@
 
 // int main() {
 
+//     // // Format specifier % = defines and formats a type of data to be displayed
+
+//     // // %c = character
+//     // // %s = string (array of characters)
+//     // // %f = floats
+//     // // %d = integer
+//     // // %lf = double
+
+//     // // %.1 = decimal precision
+//     // // %1 = minimum field width
+//     // // %- = left align
+
+//     float item1 = 5.75;
+//     float item2 = 10.00;
+//     float item3 = 100.99;
+
+//     printf("Item 1: £%.2f\n", item1);
+//     printf("Item 2: £%.2f\n", item2);
+//     printf("Item 3: £%.2f", item3);
 
 //     return 0;
 // }
