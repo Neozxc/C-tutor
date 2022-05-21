@@ -341,6 +341,52 @@
 // ----------------------------------------------------------------------------------------- //PART #14
 // #include <stdio.h>
 
+// void birthday(char name[], int age) {
+//     // Set parameters to send to arguments
+//     printf("\nHappy birthday %s!", name);
+//     printf("\nYou are now: %d", age);
+// }
+
+// int main() {
+//     char name[] = "Nedas";
+//     int age = 22;
+
+//     // Set arguments so the function sees what we call it
+//     birthday(name, age);
+
+//     return 0;
+// }
+
+// ----------------------------------------------------------------------------------------- //PART #15
+// #include <stdio.h>
+
+// int main() {
+
+
+//     return 0;
+// }
+
+// ----------------------------------------------------------------------------------------- //PART #16
+// #include <stdio.h>
+
+// int main() {
+
+
+//     return 0;
+// }
+
+// ----------------------------------------------------------------------------------------- //PART #17
+// #include <stdio.h>
+
+// int main() {
+
+
+//     return 0;
+// }
+
+// ----------------------------------------------------------------------------------------- //PART #18
+// #include <stdio.h>
+
 // int main() {
 
 
